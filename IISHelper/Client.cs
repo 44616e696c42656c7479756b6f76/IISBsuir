@@ -1,5 +1,6 @@
 ﻿using IISHelper.Models;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -42,6 +43,26 @@ namespace IISHelper
         public async Task<PersonalCv> GetPersonalCv()
         {
             return await _HttpClient.GetFromJsonAsync<PersonalCv>("profiles/personal-cv");
+        }
+
+        public async Task<Group> GetGroup()
+        {
+            return await _HttpClient.GetFromJsonAsync<Group>("student-groups/user-group-info");
+        }
+
+        public async Task<Markbook> GetMarkBook()
+        {
+            return await _HttpClient.GetFromJsonAsync<Markbook>("markbook");
+        }
+
+        public async Task<IEnumerable<Marksheet>> GetMarksheet()
+        {
+            return await _HttpClient.GetFromJsonAsync<IEnumerable<Marksheet>>("mark-sheet");
+        }
+
+        public async Task<IEnumerable<Sertificate>> GetSertificates()
+        {
+            return await _HttpClient.GetFromJsonAsync<IEnumerable<Sertificate>>("certificate");
         }
 
         public static async Task<(HttpResponseMessage, Cookie)> TryAuth(string Username, string Password)
