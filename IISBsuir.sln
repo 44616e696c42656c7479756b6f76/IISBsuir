@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISBsuirWPF", "IISBsuirWPF\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISHelper", "IISHelper\IISHelper.csproj", "{4CC0BFA8-02B1-4463-AE81-A02E05AD1EEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISBsuir.TestConsole", "IISBsuir.TestConsole\IISBsuir.TestConsole.csproj", "{A683C140-C775-4C12-B44E-70F6360921AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4CC0BFA8-02B1-4463-AE81-A02E05AD1EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC0BFA8-02B1-4463-AE81-A02E05AD1EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC0BFA8-02B1-4463-AE81-A02E05AD1EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A683C140-C775-4C12-B44E-70F6360921AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A683C140-C775-4C12-B44E-70F6360921AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A683C140-C775-4C12-B44E-70F6360921AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A683C140-C775-4C12-B44E-70F6360921AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
